@@ -1,0 +1,42 @@
+.modal-body{
+            <!--min-width:800px;-->
+            min-height:800px;
+            }
+.panel-title{
+            display: none;
+            }
+.panel-control{
+            display: none;
+              }
+.btn-info  {
+
+            background-color: #ff7878;
+            color: #FFFFFF;
+            }
+.btn-info:hover{
+            background-color:#1fb5ad;
+
+            }
+.mail-navigation li a.active i.fa
+                            {
+                            color:#1fb5ad;                         
+                            
+                            
+                            }
+.panel-heading{ display: block}
+.panel-title{ display: block}
+.panel-control{ display: block}
+.panel-default{margin: 0px}
+
+.mail-navigation li a.active i.fa {
+
+                                    font-size: 20px;
+                                    line-height: 30px;
+
+
+                                    }
+.addition {
+            max-height: 400px;
+           overflow-y: auto;
+
+            }
