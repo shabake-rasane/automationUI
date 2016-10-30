@@ -1,7 +1,12 @@
+/* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
 .modal-body{
-            <!--min-width:800px;-->
-            min-height:800px;
-            }
+    height: 600px;
+    overflow-y: auto;
+    overflow-x:auto;
+}
 .panel-title{
             display: none;
             }
@@ -35,8 +40,15 @@
 
 
                                     }
-.addition {
-            max-height: 400px;
-           overflow-y: auto;
 
-            }
+.dataTables_length label select{
+		background: url("sort_both.png") no-repeat;
+   	        background-color: transparent;
+   		 background-image: url("sort_both.png");
+  		  background-repeat: no-repeat;
+   	       	 background-attachment: scroll;
+ 		   background-clip: border-box;
+ 		   background-origin: padding-box
+		background-position: center left;
+		
+				}
